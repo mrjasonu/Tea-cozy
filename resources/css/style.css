@@ -46,7 +46,8 @@ nav li {
 }
 
 #logo-nav-gap {
-    width: 965px;
+    /* width: 965px; */
+    width: 70%;
 }
 
 main {
