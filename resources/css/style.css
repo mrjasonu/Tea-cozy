@@ -1,0 +1,182 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+h4 {
+    font-weight: 600;
+}
+
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+}
+
+nav {
+    /* border: 1px solid seashell; */
+    width: 350px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+    text-decoration: underline;
+}
+
+#logo {
+    height: 50px;
+    display: inline;
+    margin-left: 10px;
+}
+
+#logo-nav-gap {
+    width: 965px;
+    /* border: 1px solid seashell; */
+}
+
+main {
+    width: 1300px;
+    margin: 69px auto;
+    margin-bottom: 1px;
+    /* border: 1px solid seashell; */
+}
+
+#main-section {
+    background-image: url(../images/img-mission-background.jpg);
+    background-size: cover;
+    display: flex;
+    width: 1300px;
+    height: 700px;
+    align-items: center;
+    /* border: 1px solid seashell; */
+}
+
+#main-section section {
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    height: 90px;
+}
+
+#main-section section h2 {
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-bottom: 19px;
+}
+
+
+.awards {
+    margin: 70px auto;
+    margin-bottom: 30px;
+    /* border: 1px solid seashell; */
+    width: 1000px;
+}
+
+.awards h2 {
+    margin-bottom: 10px;
+}
+
+#question {
+    margin-bottom: 20px;
+}
+
+.award-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.image-container img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.image-container h4 {
+    margin-bottom: 15px;
+}
+
+.locations-div {
+    background-image: url(../images/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+    height: 550px;
+    width: 1300px;
+    /* border: 1px solid red; */
+}
+
+#empty-space {
+    height: 80px;
+}
+
+.locations-div h2 {
+    margin-bottom: 10px;
+    /* border: 1px solid red; */
+}
+
+.locations-container {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.location {
+    box-sizing: border-box;
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    margin-right: 40px;
+    padding: 20px;
+}
+
+.location h3 {
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+
+.location p {
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+
+
+#footer {
+    margin-top: 10px;
+    height: 200px;
+    /* border: 1px solid seashell; */
+}
+
+#footer h5 {
+    font-size: smaller;
+}
+
+#footer h2, #footer h5 {
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+#last-text {
+    text-align: left;
+    margin-left: 10px;
+}
